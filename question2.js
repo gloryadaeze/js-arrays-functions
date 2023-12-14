@@ -1,9 +1,12 @@
-function printArrayValues(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        console.log(arr[i]);
+//Build a simple loop, inside a function, that takes an array and prints the value of the array to the console.
+
+
+
+function printArrayValues(a) {
+    for (let i = 0; i < a.length; i++) {
+        console.log(a[i]);
     }
 }
 
-// Example usage with an array
-const myArray = [10, 20, 30, 40, 50];
+const myArray = ['Pink', 'red', 'blue'];
 printArrayValues(myArray);
